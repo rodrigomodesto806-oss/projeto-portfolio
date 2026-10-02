@@ -62,7 +62,7 @@ nav#menu a:hover {
 main {
   display: grid;
   grid-template-columns: auto 90vw auto;
-  gap: 20px;
+  gap: 2 0px;
   margin-top: 20px;
 }
 
@@ -83,9 +83,10 @@ section#ficha img.foto {
   outline: 5px solid var(--destaque);
   display: block;
   margin: auto;
+  margin-bottom: 15px;
 }
 
-section#ficha {
+section#ficha h1 {
   color: var(--destaque);
   margin: 15px 0;
   font-size: 1.5em;
